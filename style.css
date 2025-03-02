@@ -1,0 +1,72 @@
+/* Configuración del fondo */
+body {
+    margin: 0;
+    padding: 0;
+    background: url('fondo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Contenedor principal */
+.contenedor {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Pregunta */
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Botones */
+.botones {
+    margin-top: 20px;
+}
+
+button {
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    transition: 0.3s;
+}
+
+/* Botón verde */
+.verde {
+    background-color: green;
+}
+
+.verde:hover {
+    background-color: darkgreen;
+}
+
+/* Botón rojo */
+.rojo {
+    background-color: red;
+}
+
+.rojo:hover {
+    background-color: darkred;
+}
+
+/* Imagen adicional */
+.imagen-abajo {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
